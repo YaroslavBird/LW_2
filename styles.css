@@ -37,7 +37,7 @@ article {
 }
 
 aside {
-    flex: 1;
+    flex: 0.05;
 }
 
 aside img {
