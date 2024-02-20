@@ -19,23 +19,31 @@
         </ul>
     </nav>
 
-    <main>
-        <section id="form">
-            <h2>Форма обратной связи</h2>
-            <form>
-                <label for="name">Имя:</label>
-                <input type="text" id="name" name="name" required>
+<main>
+    <section id="form">
+        <h2>Форма обратной связи</h2>
+        <form>
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-                <label for="message">Сообщение:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
+            <label for="phone">Номер телефона:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Формат: 123-456-7890" required>
 
-                <button type="submit">Отправить</button>
-            </form>
-        </section>
-    </main>
+            <label for="age">Возраст:</label>
+            <input type="number" id="age" name="age" min="18" required>
+
+            <label for="message">Сообщение:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+        </form>
+    </section>
+</main>
+
 
     <footer>
         <p>&copy; 2024 Я - студент ВШЭ</p>
