@@ -40,6 +40,16 @@ aside {
     flex: 1;
 }
 
+aside img {
+    width: 100px; /* Уменьшаем размер логотипа */
+    height: auto;
+    transition: width 0.3s ease; /* Добавляем плавный переход при изменении размера */
+}
+
+aside img:hover {
+    width: 120px; /* Увеличиваем размер при наведении мыши */
+}
+
 footer {
     background-color: #f8f9fa;
     padding: 10px;
